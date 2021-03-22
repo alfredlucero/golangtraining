@@ -5,7 +5,9 @@ package main
 
 import "fmt"
 
-// go run helloworld.go
+// go run helloworld.go -> runs main function and prints Hello world!
+// go build helloworld.go -> builds executable you can run like ./helloworld.go
+// go install helloworld.go -> installs into bin directory of Go workspace to be accessed globally like helloworld
 func main() {
 	fmt.Println("Hello world!")
 }
