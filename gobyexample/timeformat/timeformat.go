@@ -34,5 +34,4 @@ func main() {
 	ansic := "Mon Jan _2 15:04:05 2006"
 	_, e = time.Parse(ansic, "8:41PM")
 	p(e)
-
 }
