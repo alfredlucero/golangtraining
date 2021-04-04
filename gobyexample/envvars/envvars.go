@@ -19,6 +19,7 @@ func main() {
 
 	fmt.Println()
 	// os.Environ to list all the key/value pairs in environment
+	// in form KEY=value
 	for _, e := range os.Environ() {
 		pair := strings.SplitN(e, "=", 2)
 		fmt.Println(pair[0])
